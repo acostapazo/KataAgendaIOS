@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403D8D4E2283601E002E678D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8D4D2283601E002E678D /* AppDelegate.swift */; };
+		403D8D502283601E002E678D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8D4F2283601E002E678D /* ViewController.swift */; };
+		403D8D532283601E002E678D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D8D512283601E002E678D /* Main.storyboard */; };
+		403D8D5522836020002E678D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403D8D5422836020002E678D /* Assets.xcassets */; };
+		403D8D5822836020002E678D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D8D5622836020002E678D /* LaunchScreen.storyboard */; };
+		403D8D6322836020002E678D /* KataAgendaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8D6222836020002E678D /* KataAgendaIOSTests.swift */; };
+		403D8D702283610F002E678D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8D6F2283610F002E678D /* Contact.swift */; };
+		403D8D7222836119002E678D /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D8D7122836119002E678D /* Agenda.swift */; };
+		9124AC4DF5F58F4D073134F0 /* Pods_KataAgendaIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E86A29F1D511CBE23B4B708 /* Pods_KataAgendaIOSTests.framework */; };
+		CDF58EDC0B17D1EFCD4A99B3 /* Pods_KataAgendaIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43125E23D05159ACAD46E041 /* Pods_KataAgendaIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		403D8D5F22836020002E678D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403D8D422283601E002E678D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403D8D492283601E002E678D;
+			remoteInfo = KataAgendaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CDD5B4C18D9C080DF959DE8 /* Pods-KataAgendaIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataAgendaIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataAgendaIOS/Pods-KataAgendaIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1C4075BF1E35AFC1D18B32 /* Pods-KataAgendaIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataAgendaIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataAgendaIOSTests/Pods-KataAgendaIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		403D8D4A2283601E002E678D /* KataAgendaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataAgendaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		403D8D4D2283601E002E678D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		403D8D4F2283601E002E678D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		403D8D522283601E002E678D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		403D8D5422836020002E678D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		403D8D5722836020002E678D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		403D8D5922836020002E678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403D8D5E22836020002E678D /* KataAgendaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataAgendaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403D8D6222836020002E678D /* KataAgendaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataAgendaIOSTests.swift; sourceTree = "<group>"; };
+		403D8D6422836020002E678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403D8D6F2283610F002E678D /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		403D8D7122836119002E678D /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		43125E23D05159ACAD46E041 /* Pods_KataAgendaIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataAgendaIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E86A29F1D511CBE23B4B708 /* Pods_KataAgendaIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataAgendaIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC46AD79F18BDA3EE62BB097 /* Pods-KataAgendaIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataAgendaIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataAgendaIOSTests/Pods-KataAgendaIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4125A79DFB23F43FA02F7B /* Pods-KataAgendaIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataAgendaIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataAgendaIOS/Pods-KataAgendaIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403D8D472283601E002E678D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF58EDC0B17D1EFCD4A99B3 /* Pods_KataAgendaIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403D8D5B22836020002E678D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9124AC4DF5F58F4D073134F0 /* Pods_KataAgendaIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E7FB0F879CA5FE4BBA9CB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CDD5B4C18D9C080DF959DE8 /* Pods-KataAgendaIOS.debug.xcconfig */,
+				EA4125A79DFB23F43FA02F7B /* Pods-KataAgendaIOS.release.xcconfig */,
+				DC46AD79F18BDA3EE62BB097 /* Pods-KataAgendaIOSTests.debug.xcconfig */,
+				3B1C4075BF1E35AFC1D18B32 /* Pods-KataAgendaIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		403D8D412283601E002E678D = {
+			isa = PBXGroup;
+			children = (
+				403D8D4C2283601E002E678D /* KataAgendaIOS */,
+				403D8D6122836020002E678D /* KataAgendaIOSTests */,
+				403D8D4B2283601E002E678D /* Products */,
+				21E7FB0F879CA5FE4BBA9CB8 /* Pods */,
+				984BDE4A306F078D8F3F8BD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		403D8D4B2283601E002E678D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403D8D4A2283601E002E678D /* KataAgendaIOS.app */,
+				403D8D5E22836020002E678D /* KataAgendaIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403D8D4C2283601E002E678D /* KataAgendaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				403D8D6E22836100002E678D /* Model */,
+				403D8D4D2283601E002E678D /* AppDelegate.swift */,
+				403D8D4F2283601E002E678D /* ViewController.swift */,
+				403D8D512283601E002E678D /* Main.storyboard */,
+				403D8D5422836020002E678D /* Assets.xcassets */,
+				403D8D5622836020002E678D /* LaunchScreen.storyboard */,
+				403D8D5922836020002E678D /* Info.plist */,
+			);
+			path = KataAgendaIOS;
+			sourceTree = "<group>";
+		};
+		403D8D6122836020002E678D /* KataAgendaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				403D8D6222836020002E678D /* KataAgendaIOSTests.swift */,
+				403D8D6422836020002E678D /* Info.plist */,
+			);
+			path = KataAgendaIOSTests;
+			sourceTree = "<group>";
+		};
+		403D8D6E22836100002E678D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				403D8D6F2283610F002E678D /* Contact.swift */,
+				403D8D7122836119002E678D /* Agenda.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		984BDE4A306F078D8F3F8BD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43125E23D05159ACAD46E041 /* Pods_KataAgendaIOS.framework */,
+				8E86A29F1D511CBE23B4B708 /* Pods_KataAgendaIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		403D8D492283601E002E678D /* KataAgendaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403D8D6722836020002E678D /* Build configuration list for PBXNativeTarget "KataAgendaIOS" */;
+			buildPhases = (
+				3413A26E050260A80C0BEB1D /* [CP] Check Pods Manifest.lock */,
+				403D8D462283601E002E678D /* Sources */,
+				403D8D472283601E002E678D /* Frameworks */,
+				403D8D482283601E002E678D /* Resources */,
+				57FE50F4C3AA8581A8A1A606 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataAgendaIOS;
+			productName = KataAgendaIOS;
+			productReference = 403D8D4A2283601E002E678D /* KataAgendaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		403D8D5D22836020002E678D /* KataAgendaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403D8D6A22836020002E678D /* Build configuration list for PBXNativeTarget "KataAgendaIOSTests" */;
+			buildPhases = (
+				48D336DD93ECA6E1B18ED241 /* [CP] Check Pods Manifest.lock */,
+				403D8D5A22836020002E678D /* Sources */,
+				403D8D5B22836020002E678D /* Frameworks */,
+				403D8D5C22836020002E678D /* Resources */,
+				9A054763E0BF372FF930FA12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				403D8D6022836020002E678D /* PBXTargetDependency */,
+			);
+			name = KataAgendaIOSTests;
+			productName = KataAgendaIOSTests;
+			productReference = 403D8D5E22836020002E678D /* KataAgendaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403D8D422283601E002E678D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Biometrics Team";
+				TargetAttributes = {
+					403D8D492283601E002E678D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					403D8D5D22836020002E678D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 403D8D492283601E002E678D;
+					};
+				};
+			};
+			buildConfigurationList = 403D8D452283601E002E678D /* Build configuration list for PBXProject "KataAgendaIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 403D8D412283601E002E678D;
+			productRefGroup = 403D8D4B2283601E002E678D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403D8D492283601E002E678D /* KataAgendaIOS */,
+				403D8D5D22836020002E678D /* KataAgendaIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403D8D482283601E002E678D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D8D5822836020002E678D /* LaunchScreen.storyboard in Resources */,
+				403D8D5522836020002E678D /* Assets.xcassets in Resources */,
+				403D8D532283601E002E678D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403D8D5C22836020002E678D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3413A26E050260A80C0BEB1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataAgendaIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48D336DD93ECA6E1B18ED241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataAgendaIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FE50F4C3AA8581A8A1A606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KataAgendaIOS/Pods-KataAgendaIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataAgendaIOS/Pods-KataAgendaIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A054763E0BF372FF930FA12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KataAgendaIOSTests/Pods-KataAgendaIOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataAgendaIOSTests/Pods-KataAgendaIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403D8D462283601E002E678D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D8D702283610F002E678D /* Contact.swift in Sources */,
+				403D8D502283601E002E678D /* ViewController.swift in Sources */,
+				403D8D4E2283601E002E678D /* AppDelegate.swift in Sources */,
+				403D8D7222836119002E678D /* Agenda.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403D8D5A22836020002E678D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D8D6322836020002E678D /* KataAgendaIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		403D8D6022836020002E678D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403D8D492283601E002E678D /* KataAgendaIOS */;
+			targetProxy = 403D8D5F22836020002E678D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		403D8D512283601E002E678D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403D8D522283601E002E678D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		403D8D5622836020002E678D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				403D8D5722836020002E678D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		403D8D6522836020002E678D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		403D8D6622836020002E678D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403D8D6822836020002E678D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDD5B4C18D9C080DF959DE8 /* Pods-KataAgendaIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4236DX29UR;
+				INFOPLIST_FILE = KataAgendaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kata.KataAgendaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403D8D6922836020002E678D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4125A79DFB23F43FA02F7B /* Pods-KataAgendaIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4236DX29UR;
+				INFOPLIST_FILE = KataAgendaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kata.KataAgendaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		403D8D6B22836020002E678D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC46AD79F18BDA3EE62BB097 /* Pods-KataAgendaIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4236DX29UR;
+				INFOPLIST_FILE = KataAgendaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kata.KataAgendaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataAgendaIOS.app/KataAgendaIOS";
+			};
+			name = Debug;
+		};
+		403D8D6C22836020002E678D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1C4075BF1E35AFC1D18B32 /* Pods-KataAgendaIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4236DX29UR;
+				INFOPLIST_FILE = KataAgendaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kata.KataAgendaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataAgendaIOS.app/KataAgendaIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403D8D452283601E002E678D /* Build configuration list for PBXProject "KataAgendaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403D8D6522836020002E678D /* Debug */,
+				403D8D6622836020002E678D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403D8D6722836020002E678D /* Build configuration list for PBXNativeTarget "KataAgendaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403D8D6822836020002E678D /* Debug */,
+				403D8D6922836020002E678D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403D8D6A22836020002E678D /* Build configuration list for PBXNativeTarget "KataAgendaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403D8D6B22836020002E678D /* Debug */,
+				403D8D6C22836020002E678D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403D8D422283601E002E678D /* Project object */;
+}
